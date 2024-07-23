@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BhuvanaPitchaimuthu/whatsapp-clone-using-React.git/static/css/main.76820b31.css",
+    "main.js": "/BhuvanaPitchaimuthu/whatsapp-clone-using-React.git/static/js/main.17bcf255.js",
+    "index.html": "/BhuvanaPitchaimuthu/whatsapp-clone-using-React.git/index.html",
+    "main.76820b31.css.map": "/BhuvanaPitchaimuthu/whatsapp-clone-using-React.git/static/css/main.76820b31.css.map",
+    "main.17bcf255.js.map": "/BhuvanaPitchaimuthu/whatsapp-clone-using-React.git/static/js/main.17bcf255.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76820b31.css",
+    "static/js/main.17bcf255.js"
+  ]
+}
