@@ -1,0 +1,109 @@
+.chatroom {
+  display: flex;
+  flex-direction: column;
+  flex: 0.65;
+  justify-content: space-between;
+  color: rgb(86, 81, 81);
+  z-index: 0;
+}
+
+.chatroom-header {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(86, 81, 81);
+  font-family: sans-serif;
+  line-height: 3px;
+  padding: 10px;
+}
+
+.chatroom-header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.75rem;
+}
+
+.chatroom-header-right {
+  display: flex;
+}
+
+.chatroom-header-left h2 {
+  font-size: 0.8rem;
+}
+
+.chatroom-name {
+  padding-left: 5px;
+}
+
+.chatroom-body {
+  display: flex;
+  flex: 1;
+  background-repeat: repeat;
+  justify-content: flex-end;
+  background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+  overflow: scroll;
+}
+
+.chatroom-body-message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 0.75rem;
+  padding-right: 10px;
+  font-family: sans-serif;
+  line-height: 2px;
+}
+
+.chatroom-body-message-new-message {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #dcf8c6;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 5px;
+}
+
+.chatroom-body-message-new-message > .timestamp {
+  font-weight: lighter;
+  font-size: 0.45rem;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-top: 13px;
+}
+
+.chatroom-body-message-user > p {
+  font-weight: bold;
+  margin-bottom: 7.5px;
+}
+
+.chatroom-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chatroom-footer {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.chatroom-footer input {
+  border: none;
+  outline: none;
+  background-color: white;
+  border-radius: 30px;
+  height: 90%;
+  width: 100%;
+  text-indent: 10px;
+}
+
+form {
+  border: none;
+  outline: none;
+  background-color: white;
+  border-radius: 30px;
+  height: 90%;
+  width: 100%;
+}

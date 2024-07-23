@@ -1,0 +1,121 @@
+.sidebar {
+  display: flex;
+  flex: 0.35;
+  flex-direction: column;
+  color: rgb(86, 81, 81);
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.sidebar-search {
+  width: 95%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: rgb(240, 240, 240);
+}
+
+.sidebar-search-common {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.sidebar input {
+  border: none;
+  outline: none;
+}
+
+.sidebar-chats {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow-y: auto;
+  color: black;
+  font-size: 1rem;
+  align-items: left;
+  padding-left: 2px;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.sidebar-chats-add-new-chats {
+  padding-left: 10px;
+}
+
+.sidebar-chats-add-new-chats:hover {
+  background-color: #ebebeb;
+  transition: 0.5s;
+}
+
+.sidebar-chats-old {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  margin: 0;
+  border: 0.5px solid rgb(247, 246, 246);
+  border-left: none;
+  border-right: none;
+  line-height: 3px;
+}
+
+.dropdown {
+  /* important */
+  margin-left: auto;
+}
+
+.sidebar-chats-old:hover {
+  background-color: #ebebeb;
+  transition: 0.5s;
+}
+
+.sidebar-chats-old-message {
+  padding-left: 5px;
+  font-size: 0.75rem;
+}
+
+.sidebar-chats-old-message > h2 {
+  font-size: 0.8rem;
+}
+
+.dropdown {
+  position: relative;
+  z-index: 20;
+}
+
+.dropdown-box {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 40px;
+  left: 10px;
+  height: 45px;
+  width: 90px;
+  background-color: white;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+  color: black;
+  font-size: 0.83rem;
+  z-index: 1000;
+  border: 5px solid white;
+}
+
+.dropdown-box:hover {
+  background-color: rgb(226, 222, 222);
+}
+
+.pin {
+  position: absolute;
+  top: 5px;
+  right: 35px;
+  color: rgb(86, 81, 81);
+  height: 3px;
+}
